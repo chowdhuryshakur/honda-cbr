@@ -1,0 +1,63 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+/* header style */
+.header-bg{
+    background-color: #264653;
+}
+.header-left h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.header-left p{
+    font-size: 12px;
+    font-weight: 100;
+}
+.header-left button{
+    background-color: #E76F51;
+}
+/* body style */
+.fetured h2{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+.fetured p{
+    font-size: 10px;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+}
+.gray-1 img{
+    filter: grayscale(100%);
+}
+.gray-2 img{
+    filter: grayscale(70%);
+}
+.client h2{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+.orange{
+    color: #E76F51;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.question h2{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+.contact h2{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
