@@ -20,9 +20,37 @@
 
 <body>
     <header class="header-bg">
-        <div class="container p-5 text-white">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container pt-5 d-flex">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-lg-0 fs-5">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active text-white" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active text-white" href="#">News</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active text-white" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <button class="btn px-4 btn-color text-white">Login</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container text-white">
             <div class="d-flex header align-items-center row row-cols-1 row-cols-lg-2">
-                <div class="col mt-5 header-left">
+                <div class="col mt-5 pe-5 header-left">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
                     <h1>Honda CBR 300R</h1>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -280,8 +308,30 @@
             </div>
         </section>
     </main>
-    <footer>
-        <!-- not implemented -->
+    <footer class="bg-dark text-white p-5 d-flex justify-content-between align-items-center mt-5">
+        <div class="ms-5">
+            <ul class="d-flex">
+                <li class="me-4">Download Now</li>
+                <li>License</li>
+            </ul>
+            <ul class="d-flex ">
+                <li class="me-4">About</li>
+                <li class="me-4">Features</li>
+                <li class="me-4">Pricing</li>
+                <li class="me-4">Careers</li>
+                <li class="me-4">Help</li>
+                <li>Privacy Policy</li>
+            </ul>
+            <p class="ms-4 ps-1">© 2020 bike. All rights reserved</p>
+        </div>
+        <div class="me-5">
+            <ul>
+                <li>Get the App</li>
+                <li class="my-3 border border-white rounded"> <img src="images/images.jpg" width="135" alt=""> </li>
+                <li> <img class=" border border-white rounded" src="images/download.jpg" width="135" alt=""></li>
+            </ul>
+
+        </div>
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

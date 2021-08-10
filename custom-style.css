@@ -6,7 +6,7 @@ li{
 }
 /* header style */
 .header{
-    height:698px;
+    height:595px;
 }
 .header-bg{
     background-color: #264653;
@@ -21,6 +21,10 @@ li{
 }
 .header-left button{
     background-color: #E76F51;
+}
+.btn-color{
+    background-color: #E76F51;
+    margin-left: 120px;
 }
 /* body style */
 .fetured h2{
@@ -63,4 +67,8 @@ li{
     font-size: 48px;
     font-weight: 800;
     text-align: center;
+}
+/* footer style */
+footer{
+    height: 280px;
 }
